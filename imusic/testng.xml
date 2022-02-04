@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/USER/IdeaProjects/imusic/src/test/java/tests/RadioPageTest.java">
+        <classes>
+            <class name="tests.RadioPageTest">
+                <methods>
+                    <include name="playerRadio"/>
+                </methods>
+            </class>
+            <class name="tests.BasePageTest">
+                <methods>
+                    <include name="playPlayer"/>
+                    <include name="soundRadioButton"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
